@@ -2,9 +2,14 @@
 
 This github repository contains the presentation files as well as supplementary resources for my presentation at the 2026 Canadian Economics Association Conference. A description of the contents of this depository are below:
 
-### 1. Presentation
+### 1. CEA_Presentation
 
-This contains a PDF rendering of the presentation as well as the fully completed Jupyter notebook. 
+This contains files related to my presentation at the CEA 2026 conference.
+
+**It contains:**
+- A copy of the presentation (rendered as a PDF): (Live Coding With Rise.pdf)
+- The associated Jupyter notebook: (Live Coding With Rise.ipynb)
+- Images embedded in the notebook file
 
 ### 2. MGT201_Lecture
 
