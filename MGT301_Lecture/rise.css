@@ -1,0 +1,27 @@
+/* Increase font size for code input cells */
+body.rise-enabled div.inner_cell > div.input_area {
+    font-size: 150%;
+}
+
+/* Increase font size for code outputs (text results and stdout) */
+body.rise-enabled div.output_subarea.output_text.output_result {
+    font-size: 150%;
+}
+body.rise-enabled div.output_subarea.output_text.output_stream.output_stdout {
+    font-size: 150%;
+}
+
+/* (Optional) Increase font size for error outputs/stderr if needed */
+body.rise-enabled div.output_subarea.output_text.output_error,
+body.rise-enabled div.output_subarea.output_text.output_stream.output_stderr {
+    font-size: 150%;
+}
+
+
+/* Specifically target pandas DataFrame HTML tables */
+.reveal table.dataframe,
+.reveal table.dataframe th,
+.reveal table.dataframe td {
+  font-size: 120% !important;
+  line-height: 1.2 !important;
+}
